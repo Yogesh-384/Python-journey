@@ -1,0 +1,15 @@
+print("Multiple Checker: Enter the range to get multiples of 2,3,4 and 5")
+start=int(input("Range: from "))
+end=int(input("Range: to:"))
+for i in range(start,end+1):
+	if i%2==0:
+		print(i,"is a multiple of 2")
+	elif i%3==0:
+		print(i,"is a multiple of 3")
+	elif i%4==0:
+		print(i,"is a multiple of 2 and 4 ")
+	elif i%5==0:
+		print(i,"is multiple of 5")
+	else:
+		print(i, "is not multiple of 2,3,4 and 5")
+	
