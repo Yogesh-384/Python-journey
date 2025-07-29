@@ -1,0 +1,25 @@
+print(" BMI Calculator")
+opt1=float(input("Enter your weight in kg:  "))
+opt2= float(input("Enter your height in cm:  "))
+opt3=opt2/100
+height2=opt3*opt3
+bmi=opt1/height2
+print("Your bmi is", bmi)
+if bmi<16:
+	print("Category: Severely Underweight \nMeaning: Possible malnutrition; Health risks may be severe")
+elif 16<bmi<17:
+	print("Category: Moderately underweight \nMeaning: Undernourished; Moderate health risks")
+elif 17<bmi<=18.4:
+	print("Category: Mildly underweight	\nMeaning: Slightly underweight; May need to gain weight for optimal health")
+elif 18.5<bmi<25:
+	print("Category: Normal weight	\nMeaning: Healthy weight range; Lowest health risks associated with weight")
+elif 25<bmi<30:
+	print("Category: Overweight	\nMeaning: Increased risk of cardiovascular and other health issues")
+elif 30<bmi<35:
+	print("Category: Obesity Class I (Moderate)	\nMeaning: Higher risk of heart disease, diabetes, and other conditions")
+elif 35<bmi<40:
+	print("Category: Obesity Class II (Severe)	\nMeaning: Greater risk of serious health problems")
+elif bmi>= 40:
+	print("Category: Obesity Class III (Very severe or morbid obesity)	\nMeaning: Highest health risks; medical intervention may be needed")
+else:
+	print ("Invalid input, please check height and weight again")
