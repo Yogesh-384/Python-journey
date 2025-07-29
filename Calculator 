@@ -1,0 +1,17 @@
+print("Enter your operation : +,-,*,/,%: ")
+opt=input("Operation ")
+num1=float(input("Enter your first number : "))
+num2=float(input("Enter your second number : "))
+if opt=="+":
+	print("Result ",num1+num2)
+elif opt=="-":
+	print("Result ",num1-num2)
+elif opt=="/":
+    print("Result ",num1/num2)
+elif opt=="*":
+	print("Result ",num1*num2)
+elif opt==("%"):
+	print("Result ", num1/num2*100)
+else:
+	print("Invalid calculation, please check it again")
+	# print(5**3) in this case ** means 5×5×5
