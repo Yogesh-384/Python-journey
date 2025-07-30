@@ -1,3 +1,3 @@
 # Python-journey
-Trying to be better 
-Sharing and tracking my progress 
+Trying to be better and 
+Sharing my progress 
