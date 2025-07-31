@@ -1,0 +1,38 @@
+#Percentage to CGPA calculator
+percent=float(input("Enter your percentage: "))
+if 89<percent<=100:
+	print("You have scored 4.0 gpa and got A grade")
+elif 84<percent<89:
+    print("You have scored 3.7 gpa and got A- grade")
+elif 79<percent<84:
+ 	print("You have scored 3.3 gpa and got B+ grade")
+elif 74<percent<79:
+      print("You have scored 3.0 gpa and got B grade")
+elif 69<percent<74:
+	print("You have scored 2.7 gpa and got B- grade")
+elif 64<percent<69:
+	print("You have scored 2.3 gpa and got C+ grade")
+elif 59<percent<64:
+	print("You have scored 2.0 gpa and got C grade")
+elif 54<percent<59:
+	print("You have scored 1.7 gpa and got C- grade")
+elif 50<=percent<54:
+	print("You have scored 1.0 gpa and got D grade")
+elif percent<50:
+    print("You have scored 0.0 gpa and got F grade")
+else :
+    print("Invalid input, please check your input again ")
+  
+'''
+Percentage       Grade                  GPA(us)
+90–100%         	A	                     4.0
+85–89%           	A−	                   3.7
+80–84%           	B+                   	3.3
+75–79%           	B                     	3.0
+70–74%           	B−                   	2.7
+65–69%           	C+                   	2.3
+60–64%           	C                     	2.0
+55–59%           	C−                  	1.7
+50–54%           	D                    	1.0
+Below 50%      	F                     	0.0      '''
+#' ' ' and " " "  are used to make comments like #
