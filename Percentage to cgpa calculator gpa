@@ -1,0 +1,4 @@
+#Percentage to cgpa calculator
+percentage=float(input("Enter your percentage: "))
+cgpa=(percentage/9.5)
+print("You have scored",cgpa)
