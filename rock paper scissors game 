@@ -1,0 +1,30 @@
+import random
+
+print("Rock Paper Scissor")
+while True:
+    opt=input("Let's start the game ,Choose one out of rock, paper, scissor, or type quiet to exit: ").capitalize()
+    if opt=="Quiet":
+        print("Thanks for playing")
+        break
+#it is loop so it will keep going until quiet is typed
+
+    all_chars=["Rock", "Paper", "Scissor"]
+    choice=""
+    choice+=random.choice(all_chars)
+    print(choice)
+    if opt==choice:
+	    print("  Draw")
+    elif opt=="Rock" and choice=="Scissor":
+    	print("You won")
+    elif opt=="Paper" and choice=="Scissor":
+	    print("You loose")
+    elif opt=="Rock" and choice=="Paper":
+    	print("You loose")
+    elif opt=="Scissor" and choice=="Paper":
+    	print("You won")
+    elif opt=="Paper" and choice=="Rock":
+	    print("You won")
+    elif opt=="Scissor" and choice=="Rock":
+	    print("You loose")
+    else:
+    	print("Invalid input")
